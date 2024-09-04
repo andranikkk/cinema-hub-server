@@ -12,19 +12,17 @@ import {
 	UsePipes,
 	ValidationPipe
 } from '@nestjs/common'
-import { UserService } from './user.service'
 import { Auth } from 'src/auth/decorators/auth.decorator'
-import { CurrentUser } from './decorators/user.decorator'
-import { UpdateUserDto } from './dto/update-user.dto'
+import { GenreService } from './genre.service';
 
 @Controller('users')
-export class UserController {
-	constructor(private readonly userService: UserService) {}
+export class GenreController {
+	constructor(private readonly GenreService: GenreService) {}
 
 	@Get('profile')
 	@Auth()
 	async getProfile(@CurrentUser('id') id: string) {
-		return this.userService.getById(id)
+		return this.GenreService.getById(id)
 	}
 
 	@Post('profile/favorites')
@@ -34,7 +32,7 @@ export class UserController {
 		@Body('movieId') movieId: string,
 		@CurrentUser('id') userId: string
 	) {
-		return this.userService.toggleFavorite(movieId, userId)
+		return this.GenreService.toggleFavorite(movieId, userId)
 	}
 
 	/* For Admin */
@@ -42,13 +40,13 @@ export class UserController {
 	@Get()
 	@Auth('admin')
 	async getAll(@Query('searchTerm') searchTerm?: string) {
-		return this.userService.getAll(searchTerm)
+		return this.GenreService.getAll(searchTerm)
 	}
 
 	@Get('by-id/:id')
 	@Auth('admin')
 	async getById(@Param('id') id: string) {
-		return this.userService.getById(id)
+		return this.GenreService.getById(id)
 	}
 
 	@UsePipes(new ValidationPipe())
@@ -56,7 +54,7 @@ export class UserController {
 	@HttpCode(200)
 	@Auth()
 	async update(@Param('id') id: string, @Body() dto: UpdateUserDto) {
-		const updatedUser = await this.userService.update(id, dto)
+		const updatedUser = await this.GenreService.update(id, dto)
 
 		if (!updatedUser) throw new NotFoundException('User not found')
 
@@ -66,6 +64,6 @@ export class UserController {
 	@Delete(':id')
 	@Auth('admin')
 	async delete(@Param('id') id: string) {
-		return this.userService.delete(id)
+		return this.GenreService.delete(id)
 	}
 }
