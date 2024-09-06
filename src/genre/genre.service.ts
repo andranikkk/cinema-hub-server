@@ -3,6 +3,7 @@ import { PrismaService } from 'src/prisma.service'
 import { returnGenreObject } from './return-genre.object'
 import { UpdateGenreDto } from './dto/update-genre.dto'
 import { generateSlug } from 'src/utils/generate-slug'
+import { CreateGenreDto } from './dto/create-genre.dto'
 
 @Injectable()
 export class GenreService {
@@ -51,7 +52,7 @@ export class GenreService {
 		return genre
 	}
 
-	/* For Admin */
+	/** For Admin */
 
 	async getById(id: string) {
 		const genre = await this.prisma.genre.findUnique({
@@ -66,17 +67,17 @@ export class GenreService {
 		return genre
 	}
 
-	async create() {
+	async create(dto: CreateGenreDto) {
 		const genre = await this.prisma.genre.create({
 			data: {
-				name: '',
-				description: '',
-				icon: '',
-				slug: ''
+				name: dto.name,
+				description: dto.description,
+				icon: dto.icon,
+				slug: generateSlug(dto.name)
 			}
 		})
 
-		return genre.id
+		return genre
 	}
 
 	async update(id: string, dto: UpdateGenreDto) {

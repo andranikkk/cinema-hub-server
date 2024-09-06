@@ -37,7 +37,7 @@ export class UserController {
 		return this.userService.toggleFavorite(movieId, userId)
 	}
 
-	/* For Admin */
+	/** For Admin */
 
 	@Get()
 	@Auth('admin')
@@ -66,6 +66,10 @@ export class UserController {
 	@Delete(':id')
 	@Auth('admin')
 	async delete(@Param('id') id: string) {
-		return this.userService.delete(id)
+		const deletedUser = await this.userService.delete(id)
+
+		if (!deletedUser) throw new NotFoundException('User not found')
+
+		return deletedUser
 	}
 }
