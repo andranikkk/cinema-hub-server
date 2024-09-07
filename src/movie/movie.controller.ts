@@ -14,7 +14,6 @@ import {
 } from '@nestjs/common'
 import { MovieService } from './movie.service'
 import { Auth } from 'src/auth/decorators/auth.decorator'
-import { CreateMovieDto } from './dto/create-movie.dto'
 import { UpdateMovieDto } from './dto/update-movie.dto'
 
 @Controller('movies')
@@ -64,8 +63,8 @@ export class MovieController {
 	@Post()
 	@HttpCode(200)
 	@Auth('admin')
-	async create(@Body() dto: CreateMovieDto) {
-		return this.movieService.create(dto)
+	async create() {
+		return this.movieService.create()
 	}
 
 	@UsePipes(new ValidationPipe())

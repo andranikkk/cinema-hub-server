@@ -3,7 +3,6 @@ import { PrismaService } from 'src/prisma.service'
 import { returnMovieObject } from './return-movie.object'
 import { UpdateMovieDto } from './dto/update-movie.dto'
 import { generateSlug } from 'src/utils/generate-slug'
-import { CreateMovieDto } from './dto/create-movie.dto'
 
 @Injectable()
 export class MovieService {
@@ -115,24 +114,24 @@ export class MovieService {
 		return movie
 	}
 
-	async create(dto: CreateMovieDto) {
+	async create() {
 		const movie = await this.prisma.movie.create({
 			data: {
-				title: dto.title,
+				title: '',
 				slug: '',
-				poster: dto.poster,
-				bigPoster: dto.bigPoster,
-				videoUrl: dto.videoUrl,
-				genres: {
+				poster: '',
+				bigPoster: '',
+				videoUrl: '',
+				actors: {
 					connect: []
 				},
-				actors: {
+				genres: {
 					connect: []
 				}
 			}
 		})
 
-		return movie
+		return movie.id
 	}
 
 	async update(id: string, dto: UpdateMovieDto) {
