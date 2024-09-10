@@ -8,6 +8,7 @@ import { ActorModule } from './actor/actor.module'
 import { ReviewModule } from './review/review.module'
 import { MovieModule } from './movie/movie.module'
 import { StatisticsModule } from './statistics/statistics.module'
+import { PaymentModule } from './payment/payment.module';
 
 @Module({
 	imports: [
@@ -19,7 +20,8 @@ import { StatisticsModule } from './statistics/statistics.module'
 		ActorModule,
 		ReviewModule,
 		MovieModule,
-		StatisticsModule
+		StatisticsModule,
+		PaymentModule
 	]
 })
 export class AppModule {}

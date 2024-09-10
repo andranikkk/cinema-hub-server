@@ -34,7 +34,7 @@ export class UserController {
 		@Body('movieId') movieId: string,
 		@CurrentUser('id') userId: string
 	) {
-		return this.userService.toggleFavorite(movieId, userId)
+		return this.userService.toggleFavorite(userId, movieId)
 	}
 
 	/** For Admin */
