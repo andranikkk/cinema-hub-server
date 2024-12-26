@@ -9,6 +9,12 @@ export class StatisticsController {
 	@Get('main')
 	@Auth('admin')
 	async getMainStatistics() {
-		return await this.statisticsService.getMainStatistics()
+		return this.statisticsService.getMainStatistics()
+	}
+
+	@Get('middle')
+	@Auth('admin')
+	async getMiddleStatistics() {
+		return this.statisticsService.getMiddleStatistics()
 	}
 }

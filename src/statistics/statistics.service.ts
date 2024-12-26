@@ -104,5 +104,25 @@ export class StatisticsService {
 			const formattedDate = formatDate(new Date(d))
 			salesByDate[formattedDate] = 0
 		}
+
+		for (const sale of salesRaw) {
+			const formattedDate = formatDate(new Date(sale.createdAt))
+			if (salesByDate[formattedDate] !== undefined) {
+				salesByDate[formattedDate] += sale._sum.amount
+			}
+		}
+
+		const salesByWeek = Object.keys(salesByDate).map(date => ({
+			date,
+			total: salesByDate[date]
+		}))
+
+		return {
+			topMovies: topMovies.map(movie => ({
+				title: movie.title,
+				views: movie.views
+			})),
+			salesByWeek
+		}
 	}
 }

@@ -78,7 +78,7 @@ export class AuthService {
 		const isValidPassword = await verify(user.password, dto.password)
 
 		if (!isValidPassword)
-			throw new UnauthorizedException('Invalid password!')
+			throw new UnauthorizedException('Invalid username or password!')
 
 		return user
 	}
