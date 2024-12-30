@@ -1,0 +1,80 @@
+[
+	{
+		"name": "Megan Fox",
+		"slug": "megan-fox",
+		"description": "Megan Fox is an American actress and model. She is known for her role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
+		"photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2MjEzNzU2Nl5BMl5BanBnXkFtZTgwNjM3NzQ5MzE@._V1_.jpg",
+		"movies": [
+			{
+				"id": "cm5bgxcdm0000ua784ansld2y",
+				"createdAt": "2024-12-30 20:04:39.275",
+				"updatedAt": "2024-12-30 20:01:17.616",
+				"title": "Deadpool",
+				"slug": "",
+				"poster": "",
+				"bigPoster": "",
+				"year": "",
+				"duration": "",
+				"country": "",
+				"views": "",
+				"videoUrl": "",
+				"userId": "",
+				"genres": [{}],
+				"actors": [{}],
+				"": [{}]
+			}
+		]
+	},
+	{
+		"name": "Elijah Wood",
+		"slug": "elijah-wood",
+		"description": "Elijah Wood is an American actor. He is known for his role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
+		"photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2MjEzNzU2Nl5BMl5BanBnXkFtZTgwNjM3NzQ5MzE@._V1_.jpg",
+		"movies": [
+			{
+				"id": "cm5bgxcdm0000ua784ansld2y",
+				"createdAt": "2024-12-30 20:04:39.275",
+				"updatedAt": "2024-12-30 20:01:17.616",
+				"title": "Deadpool",
+				"slug": "",
+				"poster": "",
+				"bigPoster": "",
+				"year": "",
+				"duration": "",
+				"country": "",
+				"views": "",
+				"videoUrl": "",
+				"userId": "",
+				"genres": [{}],
+				"actors": [{}],
+				"": [{}]
+			}
+		]
+	},
+	{
+		"name": "Natalie Portman",
+		"slug": "natalie-portman",
+		"description": "Natalie Portman is an American actress. She is known for her role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
+		"photoUrl": "https://m.media-amazon.com/images/M/MV5BMTQ2MjEzNzU2Nl5BMl5BanBnXkFtZTgwNjM3NzQ5MzE@._V1_.jpg",
+		"movies": [
+			{
+				"id": "cm5bgxcdm0000ua784ansld2y",
+				"createdAt": "2024-12-30 20:04:39.275",
+				"updatedAt": "2024-12-30 20:01:17.616",
+				"title": "Deadpool",
+				"slug": "",
+				"poster": "",
+				"bigPoster": "",
+				"year": "",
+				"duration": "",
+				"country": "",
+				"views": "",
+				"videoUrl": "",
+				"userId": "",
+				"genres": [{}],
+				"actors": [{}],
+				"": [{}]
+			}
+		]
+	}
+]

@@ -1,0 +1,74 @@
+[
+	{
+		"title": "The Shawshank Redemption",
+		"slug": "pobeg-iz-shoushenka",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"bigPoster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"year": 1994,
+		"duration": 142,
+		"country": "USA",
+		"views": 0,
+		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
+		"userId": "cm5bghj7o0000uaegj01ju1ol",
+		"genres": [
+			{
+				"id": "cm5bgymro0001ua78gj6noh1w",
+				"createdAt": "2024-12-30T20:05:39.397Z",
+				"updatedAt": "2024-12-30T20:04:56.952Z",
+				"name": "Adventure",
+				"slug": "adventure",
+				"movies": [{}]
+			}
+		],
+		"actors": ["cm5bh0nhf0002ua78pxsuhev3"],
+		"reviews": []
+	},
+	{
+		"title": "The Godfather",
+		"slug": "kresniy-otec",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"bigPoster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"year": 1994,
+		"duration": 142,
+		"country": "USA",
+		"views": 0,
+		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
+		"userId": "cm5bghj7o0000uaegj01ju1ol",
+		"genres": [
+			{
+				"id": "cm5bgymro0001ua78gj6noh1w",
+				"createdAt": "2024-12-30T20:05:39.397Z",
+				"updatedAt": "2024-12-30T20:04:56.952Z",
+				"name": "Adventure",
+				"slug": "adventure",
+				"movies": [{}]
+			}
+		],
+		"actors": ["cm5bh0nhf0002ua78pxsuhev3"],
+		"reviews": []
+	},
+	{
+		"title": "The Dark Knight",
+		"slug": "tyomniy-ricar",
+		"poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"bigPoster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"year": 2008,
+		"duration": 122,
+		"country": "USA",
+		"views": 0,
+		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
+		"userId": "cm5bghj7o0000uaegj01ju1ol",
+		"genres": [
+			{
+				"id": "cm5bgymro0001ua78gj6noh1w",
+				"createdAt": "2024-12-30T20:05:39.397Z",
+				"updatedAt": "2024-12-30T20:04:56.952Z",
+				"name": "Adventure",
+				"slug": "adventure",
+				"movies": [{}]
+			}
+		],
+		"actors": ["cm5bh0nhf0002ua78pxsuhev3"],
+		"reviews": []
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Action",
+		"slug": "action",
+		"description": "Action movies",
+		"icon": "action.png",
+		"movies": ["cm5bgxcdm0000ua784ansld2y"]
+	},
+	{
+		"name": "Drama",
+		"slug": "drama",
+		"description": "Drama movies",
+		"icon": "drama.png",
+		"movies": ["cm5bgxcdm0000ua784ansld2y"]
+	},
+	{
+		"name": "Comedy",
+		"slug": "comedy",
+		"description": "Comedy movies",
+		"icon": "comedy.png",
+		"movies": ["cm5bgxcdm0000ua784ansld2y"]
+	}
+]

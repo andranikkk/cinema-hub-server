@@ -1,0 +1,33 @@
+[
+	{
+		"name": "admin",
+		"email": "admin@mail.ru",
+		"password": "123",
+		"role": "ADMIN"
+	},
+	{
+		"name": "user",
+		"email": "example@mail.ru",
+		"password": "123",
+		"role": "USER"
+	},
+	{
+		"name": "procurement1",
+		"email": "example1@mail.ru",
+		"password": "123",
+		"role": "USER"
+	},
+
+	{
+		"password": "123",
+		"role": "USER",
+		"name": "Josiane.Kuhlman19",
+		"email": "example2@mail.ru"
+	},
+	{
+		"password": "123",
+		"role": "USER",
+		"name": "Abel.Thompson",
+		"email": "example3@mail.ru"
+	}
+]
