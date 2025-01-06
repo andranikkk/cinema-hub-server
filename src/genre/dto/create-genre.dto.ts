@@ -8,9 +8,12 @@ export class CreateGenreDto {
 	@IsString()
 	description: string
 
-  @IsString()
-  slug: string
+	@IsString()
+	slug: string
 
 	@IsString()
 	icon: UserRole
+
+	@IsString()
+	link: string
 }

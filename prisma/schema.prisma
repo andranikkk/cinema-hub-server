@@ -67,6 +67,7 @@ model Genre {
   description String
 
   icon String
+  link String
 
   movies Movie[]
 

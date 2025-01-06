@@ -9,19 +9,7 @@
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm5bghj7o0000uaegj01ju1ol",
-		"genres": [
-			{
-				"id": "cm5bgymro0001ua78gj6noh1w",
-				"createdAt": "2024-12-30T20:05:39.397Z",
-				"updatedAt": "2024-12-30T20:04:56.952Z",
-				"name": "Adventure",
-				"slug": "adventure",
-				"movies": [{}]
-			}
-		],
-		"actors": ["cm5bh0nhf0002ua78pxsuhev3"],
-		"reviews": []
+		"userId": "cm5lcm8a40000ua28ntz8vi5p"
 	},
 	{
 		"title": "The Godfather",
@@ -33,19 +21,7 @@
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm5bghj7o0000uaegj01ju1ol",
-		"genres": [
-			{
-				"id": "cm5bgymro0001ua78gj6noh1w",
-				"createdAt": "2024-12-30T20:05:39.397Z",
-				"updatedAt": "2024-12-30T20:04:56.952Z",
-				"name": "Adventure",
-				"slug": "adventure",
-				"movies": [{}]
-			}
-		],
-		"actors": ["cm5bh0nhf0002ua78pxsuhev3"],
-		"reviews": []
+		"userId": "cm5lcm8a40000ua28ntz8vi5p"
 	},
 	{
 		"title": "The Dark Knight",
@@ -57,18 +33,6 @@
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm5bghj7o0000uaegj01ju1ol",
-		"genres": [
-			{
-				"id": "cm5bgymro0001ua78gj6noh1w",
-				"createdAt": "2024-12-30T20:05:39.397Z",
-				"updatedAt": "2024-12-30T20:04:56.952Z",
-				"name": "Adventure",
-				"slug": "adventure",
-				"movies": [{}]
-			}
-		],
-		"actors": ["cm5bh0nhf0002ua78pxsuhev3"],
-		"reviews": []
+		"userId": "cm5lcm8a40000ua28ntz8vi5p"
 	}
 ]

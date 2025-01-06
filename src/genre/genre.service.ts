@@ -73,6 +73,7 @@ export class GenreService {
 				name: dto.name,
 				description: dto.description,
 				icon: dto.icon,
+				link: dto.link,
 				slug: generateSlug(dto.name)
 			}
 		})
