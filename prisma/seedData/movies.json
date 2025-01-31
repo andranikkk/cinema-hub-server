@@ -2,37 +2,37 @@
 	{
 		"title": "The Shawshank Redemption",
 		"slug": "pobeg-iz-shoushenka",
-		"poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-		"bigPoster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"poster": "posters/shawshank.jpg",
+		"bigPoster": "big-posters/shawshank-big.jpg",
 		"year": 1994,
 		"duration": 142,
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm5lcm8a40000ua28ntz8vi5p"
+		"userId": "cm6l7udri0000uavo8l49o7bu"
 	},
 	{
 		"title": "The Godfather",
 		"slug": "kresniy-otec",
-		"poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-		"bigPoster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"poster": "posters/godfather.jpg",
+		"bigPoster": "big-posters/godfather-big.jpg",
 		"year": 1994,
 		"duration": 142,
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm5lcm8a40000ua28ntz8vi5p"
+		"userId": "cm6l7udri0000uavo8l49o7bu"
 	},
 	{
 		"title": "The Dark Knight",
 		"slug": "tyomniy-ricar",
-		"poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-		"bigPoster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+		"poster": "posters/dark-knight.jpg",
+		"bigPoster": "big-posters/dark-knight-big.jpg",
 		"year": 2008,
 		"duration": 122,
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm5lcm8a40000ua28ntz8vi5p"
+		"userId": "cm6l7udri0000uavo8l49o7bu"
 	}
 ]
