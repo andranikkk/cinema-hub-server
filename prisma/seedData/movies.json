@@ -2,37 +2,37 @@
 	{
 		"title": "The Shawshank Redemption",
 		"slug": "pobeg-iz-shoushenka",
-		"poster": "posters/shawshank.jpg",
-		"bigPoster": "big-posters/shawshank-big.jpg",
+		"poster": "/uploads/posters/shawshank.jpg",
+		"bigPoster": "/uploads/big-posters/shawshank-big.jpg",
 		"year": 1994,
 		"duration": 142,
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6l7udri0000uavo8l49o7bu"
+		"userId": "cm6mesbb60000uatgq45jxrmp"
 	},
 	{
 		"title": "The Godfather",
 		"slug": "kresniy-otec",
-		"poster": "posters/godfather.jpg",
-		"bigPoster": "big-posters/godfather-big.jpg",
+		"poster": "/uploads/posters/godfather.jpg",
+		"bigPoster": "/uploads/big-posters/godfather-big.jpg",
 		"year": 1994,
 		"duration": 142,
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6l7udri0000uavo8l49o7bu"
+		"userId": "cm6mesbb60000uatgq45jxrmp"
 	},
 	{
 		"title": "The Dark Knight",
 		"slug": "tyomniy-ricar",
-		"poster": "posters/dark-knight.jpg",
-		"bigPoster": "big-posters/dark-knight-big.jpg",
+		"poster": "/uploads/posters/dark-knight.jpg",
+		"bigPoster": "/uploads/big-posters/dark-knight-big.jpg",
 		"year": 2008,
 		"duration": 122,
 		"country": "USA",
 		"views": 0,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6l7udri0000uavo8l49o7bu"
+		"userId": "cm6mesbb60000uatgq45jxrmp"
 	}
 ]
