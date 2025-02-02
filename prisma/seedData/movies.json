@@ -7,7 +7,7 @@
 		"year": 1994,
 		"duration": 142,
 		"country": "USA",
-		"views": 0,
+		"views": 100,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
 		"userId": "cm6mesbb60000uatgq45jxrmp"
 	},
@@ -19,7 +19,7 @@
 		"year": 1994,
 		"duration": 142,
 		"country": "USA",
-		"views": 0,
+		"views": 66,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
 		"userId": "cm6mesbb60000uatgq45jxrmp"
 	},
@@ -31,7 +31,19 @@
 		"year": 2008,
 		"duration": 122,
 		"country": "USA",
-		"views": 0,
+		"views": 46,
+		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
+		"userId": "cm6mesbb60000uatgq45jxrmp"
+	},
+	{
+		"title": "Borat",
+		"slug": "borat",
+		"poster": "/uploads/posters/borat.jpg",
+		"bigPoster": "/uploads/big-posters/borat-big.jpg",
+		"year": 2006,
+		"duration": 84,
+		"country": "UK",
+		"views": 222,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
 		"userId": "cm6mesbb60000uatgq45jxrmp"
 	}

@@ -1,0 +1,32 @@
+[
+	{
+		"rating": 5,
+		"text": "The best film ever!",
+		"userId": "cm6mesbep0001uatgc8hkcruk",
+		"movieId": "cm6nqourd0003uah8ey0tecpn"
+	},
+	{
+		"rating": 4,
+		"text": "Love this film so much!",
+		"userId": "cm6mesbep0001uatgc8hkcruk",
+		"movieId": "cm6nqourd0003uah8ey0tecpn"
+	},
+	{
+		"rating": 5,
+		"text": "Not a bad one",
+		"userId": "cm6mesblx0003uatgtaof8pep",
+		"movieId": "cm6nqouri0005uah8ebwa36xk"
+	},
+	{
+		"rating": 1,
+		"text": "Worst film ever!",
+		"userId": "cm6mesblx0003uatgtaof8pep",
+		"movieId": "cm6nqouri0005uah8ebwa36xk"
+	},
+	{
+		"rating": 0,
+		"text": "No comments...",
+		"userId": "cm6mesblx0003uatgtaof8pep",
+		"movieId": "cm6nqouri0005uah8ebwa36xk"
+	}
+]

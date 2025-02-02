@@ -7,6 +7,8 @@ const users = require('./seedData/users.json')
 const movies = require('./seedData/movies.json')
 const genres = require('./seedData/genres.json')
 const actors = require('./seedData/actors.json')
+const reviews = require('./seedData/reviews.json')
+const payments = require('./seedData/payments.json')
 
 const prisma = new PrismaClient()
 
@@ -94,11 +96,31 @@ async function addActors() {
 	}
 }
 
-async function cleanup(actors, genres, movies, users) {
+async function addReviews() {
+	for (const review of reviews) {
+		await prisma.review.create({
+			data: review
+		})
+		console.log(`Review '${review.text}' created successfully.`)
+	}
+}
+
+async function addPayments() {
+	for (const payment of payments) {
+		await prisma.payment.create({
+			data: payment
+		})
+		console.log(`Review '${payment.amount}' created successfully.`)
+	}
+}
+
+async function cleanup(actors, genres, movies, users, reviews, payments) {
 	// const actorsCount = await prisma.actor.count()
 	// const genresCount = await prisma.genre.count()
 	// const moviesCount = await prisma.movie.count()
 	// const usersCount = await prisma.user.count()
+	// const reviewsCount = await prisma.review.count()
+	// const paymentsCount = await prisma.payment.count()
 
 	if (actors) {
 		const actor = await prisma.actor.deleteMany()
@@ -119,6 +141,16 @@ async function cleanup(actors, genres, movies, users) {
 		const user = await prisma.user.deleteMany()
 		console.log(`Deleted ${user.count} users`)
 	}
+
+	if (reviews) {
+		const review = await prisma.review.deleteMany()
+		console.log(`Deleted ${review.count} reviews`)
+	}
+
+	if (payments) {
+		const payment = await prisma.payment.deleteMany()
+		console.log(`Deleted ${payment.count} payments`)
+	}
 }
 
 async function main() {
@@ -127,14 +159,32 @@ async function main() {
 	let deleteGenres = false
 	let deleteMovies = false
 	let deleteUsers = false
+	let deleteReviews = false
+	let deletePayments = false
 
-	if (deleteActors || deleteGenres || deleteMovies || deleteUsers) {
-		await cleanup(deleteActors, deleteGenres, deleteMovies, deleteUsers)
+	if (
+		deleteActors ||
+		deleteGenres ||
+		deleteMovies ||
+		deleteUsers ||
+		deleteReviews ||
+		deletePayments
+	) {
+		await cleanup(
+			deleteActors,
+			deleteGenres,
+			deleteMovies,
+			deleteUsers,
+			deleteReviews,
+			deletePayments
+		)
 	} else {
 		await addUsers()
 		await addMovies()
 		await addGenres()
 		await addActors()
+		await addReviews()
+		await addPayments()
 	}
 }
 
