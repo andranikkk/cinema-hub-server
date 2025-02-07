@@ -2,8 +2,8 @@ import { Injectable } from '@nestjs/common'
 import { hash } from 'argon2'
 import { AuthDto } from 'src/auth/dto/auth.dto'
 import { PrismaService } from 'src/prisma.service'
-import { returnUserObject } from './return-user.object'
 import { UpdateUserDto } from './dto/update-user.dto'
+import { returnUserObject } from './return-user.object'
 
 @Injectable()
 export class UserService {
@@ -11,7 +11,9 @@ export class UserService {
 
 	async getById(id: string) {
 		return this.prisma.user.findUnique({
-			where: { id },
+			where: {
+				id
+			},
 			include: {
 				favorites: true
 			}
@@ -20,7 +22,9 @@ export class UserService {
 
 	async getByEmail(email: string) {
 		return this.prisma.user.findUnique({
-			where: { email },
+			where: {
+				email
+			},
 			include: {
 				favorites: true
 			}
@@ -34,10 +38,12 @@ export class UserService {
 			password: await hash(dto.password)
 		}
 
-		return this.prisma.user.create({ data: user })
+		return this.prisma.user.create({
+			data: user
+		})
 	}
 
-	async toggleFavorite(userId: string, movieId: string) {
+	async toggleFavorite(movieId: string, userId: string) {
 		const user = await this.getById(userId)
 
 		const isExists = user.favorites.some(movie => movie.id === movieId)
@@ -47,14 +53,15 @@ export class UserService {
 			data: {
 				favorites: {
 					set: isExists
-						? user.favorites.filter(movie => movie.id === movieId)
+						? user.favorites.filter(movie => movie.id !== movieId)
 						: [...user.favorites, { id: movieId }]
 				}
 			}
 		})
 	}
 
-	/* For Admin */
+	/* For admin */
+
 	async getAll(searchTerm?: string) {
 		if (searchTerm) return this.search(searchTerm)
 
@@ -71,10 +78,6 @@ export class UserService {
 			where: {
 				OR: [
 					{
-						name: {
-							contains: searchTerm,
-							mode: 'insensitive'
-						},
 						email: {
 							contains: searchTerm,
 							mode: 'insensitive'

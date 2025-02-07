@@ -12,7 +12,7 @@ CREATE TABLE
         "updated_at" TIMESTAMP(3) NOT NULL,
         "email" TEXT NOT NULL,
         "password" TEXT NOT NULL,
-        "name" TEXT NOT NULL DEFAULT 'No name',
+        "name" TEXT NOT NULL DEFAULT 'vasya pupkin',
         "avatar_path" TEXT NOT NULL DEFAULT '/uploads/default-avatar.png',
         "role" "UserRole" NOT NULL DEFAULT 'USER',
         "is_has_premium" BOOLEAN NOT NULL DEFAULT false,

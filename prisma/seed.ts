@@ -36,26 +36,6 @@ async function addUsers() {
 	}
 }
 
-async function addMovies() {
-	for (const movie of movies) {
-		const existingMovie = await prisma.movie.findUnique({
-			where: {
-				slug: movie.slug
-			}
-		})
-		if (!existingMovie) {
-			await prisma.movie.create({
-				data: movie
-			})
-			console.log(`Movie '${movie.title}' created successfully.`)
-		} else {
-			console.log(
-				`Movie with slug ${movie.slug} already exists. Skipping...`
-			)
-		}
-	}
-}
-
 async function addGenres() {
 	for (const genre of genres) {
 		const existingGenre = await prisma.genre.findUnique({
@@ -71,6 +51,41 @@ async function addGenres() {
 		} else {
 			console.log(
 				`Genre with slug ${genre.slug} already exists. Skipping...`
+			)
+		}
+	}
+}
+
+async function addMovies() {
+	for (const movie of movies) {
+		const existingMovie = await prisma.movie.findUnique({
+			where: { slug: movie.slug }
+		})
+
+		if (!existingMovie) {
+			await prisma.movie.create({
+				data: {
+					title: movie.title,
+					slug: movie.slug,
+					poster: movie.poster,
+					bigPoster: movie.bigPoster,
+					year: movie.year,
+					duration: movie.duration,
+					country: movie.country,
+					views: movie.views,
+					videoUrl: movie.videoUrl,
+					userId: movie.userId,
+					genres: {
+						connect: movie.genres.map(genre => ({
+							id: genre.id
+						}))
+					}
+				}
+			})
+			console.log(`Movie '${movie.title}' created successfully.`)
+		} else {
+			console.log(
+				`Movie with slug ${movie.slug} already exists. Skipping...`
 			)
 		}
 	}
@@ -180,8 +195,8 @@ async function main() {
 		)
 	} else {
 		await addUsers()
-		await addMovies()
 		await addGenres()
+		await addMovies()
 		await addActors()
 		await addReviews()
 		await addPayments()

@@ -2,11 +2,21 @@
 	{
 		"status": "PAYED",
 		"amount": 100,
-		"userId": "cm6mesbep0001uatgc8hkcruk"
+		"userId": "cm6uzeh2u0004uan8en1tz1zk"
 	},
 	{
 		"status": "PAYED",
 		"amount": 40,
-		"userId": "cm6mesbep0001uatgc8hkcruk"
+		"userId": "cm6uzegzb0003uan8frekim63"
+	},
+	{
+		"status": "PAYED",
+		"amount": 300,
+		"userId": "cm6uzeh2u0004uan8en1tz1zk"
+	},
+	{
+		"status": "PAYED",
+		"amount": 55,
+		"userId": "cm6uzegzb0003uan8frekim63"
 	}
 ]

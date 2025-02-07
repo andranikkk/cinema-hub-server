@@ -9,7 +9,27 @@
 		"country": "USA",
 		"views": 100,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6mesbb60000uatgq45jxrmp"
+		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"genres": [
+			{
+				"id": "cm6uzpbos0000uahg73kdzuug",
+				"createdAt": "2025-02-07T14:11:24.125Z",
+				"name": "Action",
+				"slug": "action",
+				"description": "Action movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			},
+			{
+				"id": "cm6uzpbp30002uahgn4m3wioc",
+				"createdAt": "2025-02-07T14:11:24.135Z",
+				"name": "Crime",
+				"slug": "crime",
+				"description": "Crime movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			}
+		]
 	},
 	{
 		"title": "The Godfather",
@@ -21,7 +41,27 @@
 		"country": "USA",
 		"views": 66,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6mesbb60000uatgq45jxrmp"
+		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"genres": [
+			{
+				"id": "cm6uzpbp00001uahgfs48ks84",
+				"createdAt": "2025-02-07T14:11:24.130Z",
+				"name": "Drama",
+				"slug": "drama",
+				"description": "Drama movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			},
+			{
+				"id": "cm6uzpbp30002uahgn4m3wioc",
+				"createdAt": "2025-02-07T14:11:24.135Z",
+				"name": "Crime",
+				"slug": "crime",
+				"description": "Crime movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			}
+		]
 	},
 	{
 		"title": "The Dark Knight",
@@ -33,7 +73,36 @@
 		"country": "USA",
 		"views": 46,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6mesbb60000uatgq45jxrmp"
+		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"genres": [
+			{
+				"id": "cm6uzpbos0000uahg73kdzuug",
+				"createdAt": "2025-02-07T14:11:24.125Z",
+				"name": "Action",
+				"slug": "action",
+				"description": "Action movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			},
+			{
+				"id": "cm6uzpbp30002uahgn4m3wioc",
+				"createdAt": "2025-02-07T14:11:24.135Z",
+				"name": "Crime",
+				"slug": "crime",
+				"description": "Crime movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			},
+			{
+				"id": "cm6uzpbp00001uahgfs48ks84",
+				"createdAt": "2025-02-07T14:11:24.130Z",
+				"name": "Drama",
+				"slug": "drama",
+				"description": "Drama movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			}
+		]
 	},
 	{
 		"title": "Borat",
@@ -45,6 +114,17 @@
 		"country": "UK",
 		"views": 222,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6mesbb60000uatgq45jxrmp"
+		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"genres": [
+			{
+				"id": "cm6uzpbp60003uahgay0767uc",
+				"createdAt": "2025-02-07T14:11:24.139Z",
+				"name": "Comedy",
+				"slug": "comedy",
+				"description": "Comedy movies",
+				"icon": "LuClapperboard",
+				"link": "genres/:id"
+			}
+		]
 	}
 ]

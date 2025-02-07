@@ -12,10 +12,10 @@ import {
 	UsePipes,
 	ValidationPipe
 } from '@nestjs/common'
-import { UserService } from './user.service'
 import { Auth } from 'src/auth/decorators/auth.decorator'
 import { CurrentUser } from './decorators/user.decorator'
 import { UpdateUserDto } from './dto/update-user.dto'
+import { UserService } from './user.service'
 
 @Controller('users')
 export class UserController {
@@ -34,10 +34,10 @@ export class UserController {
 		@Body('movieId') movieId: string,
 		@CurrentUser('id') userId: string
 	) {
-		return this.userService.toggleFavorite(userId, movieId)
+		return this.userService.toggleFavorite(movieId, userId)
 	}
 
-	/** For Admin */
+	/* For admin */
 
 	@Get()
 	@Auth('admin')
@@ -54,12 +54,11 @@ export class UserController {
 	@UsePipes(new ValidationPipe())
 	@Put(':id')
 	@HttpCode(200)
-	@Auth()
+	@Auth('admin')
 	async update(@Param('id') id: string, @Body() dto: UpdateUserDto) {
 		const updatedUser = await this.userService.update(id, dto)
 
-		if (!updatedUser) throw new NotFoundException('User not found')
-
+		if (!updatedUser) throw new NotFoundException('Пользователь не найден')
 		return updatedUser
 	}
 
@@ -68,8 +67,7 @@ export class UserController {
 	async delete(@Param('id') id: string) {
 		const deletedUser = await this.userService.delete(id)
 
-		if (!deletedUser) throw new NotFoundException('User not found')
-
+		if (!deletedUser) throw new NotFoundException('Пользователь не найден')
 		return deletedUser
 	}
 }

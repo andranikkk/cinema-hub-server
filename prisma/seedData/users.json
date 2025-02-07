@@ -21,13 +21,13 @@
 	{
 		"password": "123",
 		"role": "USER",
-		"name": "Josiane.Kuhlman19",
+		"name": "Josiane Kuhlman19",
 		"email": "example2@mail.ru"
 	},
 	{
 		"password": "123",
 		"role": "USER",
-		"name": "Abel.Thompson",
+		"name": "Abel Thompson",
 		"email": "example3@mail.ru"
 	}
 ]
