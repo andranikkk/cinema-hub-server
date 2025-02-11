@@ -3,18 +3,52 @@
 		"name": "Megan Fox",
 		"slug": "megan-fox",
 		"description": "Megan Fox is an American actress and model. She is known for her role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
-		"photoUrl": "/uploads/actors/karen.jpg"
+		"photoUrl": "/uploads/actors/karen.jpg",
+		"movies": [
+			{
+				"id": "cm6zftpk40001uakoz5b7hbnk",
+				"title": "The Shawshank Redemption",
+				"slug": "pobeg-iz-shoushenka",
+				"poster": "/uploads/posters/shawshank.jpg",
+				"bigPoster": "/uploads/big-posters/shawshank-big.jpg"
+			}
+		]
 	},
 	{
 		"name": "Elijah Wood",
 		"slug": "elijah-wood",
 		"description": "Elijah Wood is an American actor. He is known for his role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
-		"photoUrl": "/uploads/actors/obito.jpg"
+		"photoUrl": "/uploads/actors/obito.jpg",
+		"movies": [
+			{
+				"id": "cm6uzruqn0003ua7ouo3jbaqr",
+				"title": "The Godfather",
+				"slug": "kresniy-otec",
+				"poster": "/uploads/posters/godfather.jpg",
+				"bigPoster": "/uploads/big-posters/godfather-big.jpg"
+			},
+			{
+				"id": "cm6uzruqu0005ua7o1z0cqq6s",
+				"title": "The Dark Knight",
+				"slug": "tyomniy-ricar",
+				"poster": "/uploads/posters/dark-knight.jpg",
+				"bigPoster": "/uploads/big-posters/dark-knight-big.jpg"
+			}
+		]
 	},
 	{
 		"name": "Natalie Portman",
 		"slug": "natalie-portman",
 		"description": "Natalie Portman is an American actress. She is known for her role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
-		"photoUrl": "/uploads/actors/deidara.jpg"
+		"photoUrl": "/uploads/actors/deidara.jpg",
+		"movies": [
+			{
+				"id": "cm6uzrur00007ua7o9jko3doc",
+				"title": "Borat",
+				"slug": "borat",
+				"poster": "/uploads/posters/borat.jpg",
+				"bigPoster": "/uploads/big-posters/borat-big.jpg"
+			}
+		]
 	}
 ]

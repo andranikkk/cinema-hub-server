@@ -100,7 +100,15 @@ async function addActors() {
 		})
 		if (!existingActor) {
 			await prisma.actor.create({
-				data: actor
+				data: {
+					name: actor.name,
+					slug: actor.slug,
+					description: actor.description,
+					photoUrl: actor.photoUrl,
+					movies: {
+						connect: actor.movies.map(movie => ({ id: movie.id }))
+					}
+				}
 			})
 			console.log(`Actor '${actor.name}' created successfully.`)
 		} else {
