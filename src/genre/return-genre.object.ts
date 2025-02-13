@@ -1,4 +1,5 @@
 import { Prisma } from '@prisma/client'
+import { returnMovieObject } from 'src/movie/return-movie.object'
 
 export const returnGenreObject: Prisma.GenreSelect = {
 	id: true,
@@ -6,5 +7,6 @@ export const returnGenreObject: Prisma.GenreSelect = {
 	name: true,
 	slug: true,
 	description: true,
-	icon: true
+	icon: true,
+	movies: { select: returnMovieObject }
 }

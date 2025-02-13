@@ -9,25 +9,25 @@
 		"country": "USA",
 		"views": 100,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"userId": "cm73ff7ei0000uan47p5it7xo",
 		"genres": [
 			{
-				"id": "cm6uzpbos0000uahg73kdzuug",
-				"createdAt": "2025-02-07T14:11:24.125Z",
-				"name": "Action",
+				"id": "cm73ff7m30005uan40l9kcrgf",
+				"createdAt": "2025-02-07T14:11:24.135Z",
+				"name": "Экшн",
 				"slug": "action",
-				"description": "Action movies",
+				"description": "Боеви́к или э́кшен-фильм (экшн-фильм) (англ. action movie, дословно — «фильм действия») — жанр кинематографа, в котором основное внимание уделяется перестрелкам, дракам, погоням и т. д.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			},
 			{
-				"id": "cm6uzpbp30002uahgn4m3wioc",
+				"id": "cm73ff7m90007uan4tmj5sl2j",
 				"createdAt": "2025-02-07T14:11:24.135Z",
-				"name": "Crime",
+				"name": "Криминал",
 				"slug": "crime",
-				"description": "Crime movies",
+				"description": "Криминальный фильм — кинематографический жанр, аналогичный литературному жанру криминала.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			}
 		]
 	},
@@ -41,25 +41,25 @@
 		"country": "USA",
 		"views": 66,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"userId": "cm73ff7ei0000uan47p5it7xo",
 		"genres": [
 			{
-				"id": "cm6uzpbp00001uahgfs48ks84",
+				"id": "cm73ff7m60006uan4qtkdo2zo",
 				"createdAt": "2025-02-07T14:11:24.130Z",
-				"name": "Drama",
+				"name": "Драма",
 				"slug": "drama",
-				"description": "Drama movies",
+				"description": "Драматический фильм — телевизионный и кинематографический жанр о внутренних переживаниях человека.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			},
 			{
-				"id": "cm6uzpbp30002uahgn4m3wioc",
+				"id": "cm73ff7m90007uan4tmj5sl2j",
 				"createdAt": "2025-02-07T14:11:24.135Z",
-				"name": "Crime",
+				"name": "Криминал",
 				"slug": "crime",
-				"description": "Crime movies",
+				"description": "Криминальный фильм — кинематографический жанр, аналогичный литературному жанру криминала.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			}
 		]
 	},
@@ -73,34 +73,34 @@
 		"country": "USA",
 		"views": 46,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"userId": "cm73ff7ei0000uan47p5it7xo",
 		"genres": [
 			{
-				"id": "cm6uzpbos0000uahg73kdzuug",
+				"id": "cm73ff7m30005uan40l9kcrgf",
 				"createdAt": "2025-02-07T14:11:24.125Z",
-				"name": "Action",
+				"name": "Экшн",
 				"slug": "action",
-				"description": "Action movies",
+				"description": "Боеви́к или э́кшен-фильм (экшн-фильм) (англ. action movie, дословно — «фильм действия») — жанр кинематографа, в котором основное внимание уделяется перестрелкам, дракам, погоням и т. д.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			},
 			{
-				"id": "cm6uzpbp30002uahgn4m3wioc",
+				"id": "cm73ff7m90007uan4tmj5sl2j",
 				"createdAt": "2025-02-07T14:11:24.135Z",
-				"name": "Crime",
+				"name": "Криминал",
 				"slug": "crime",
-				"description": "Crime movies",
+				"description": "Криминальный фильм — кинематографический жанр, аналогичный литературному жанру криминала.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			},
 			{
-				"id": "cm6uzpbp00001uahgfs48ks84",
+				"id": "cm73ff7m60006uan4qtkdo2zo",
 				"createdAt": "2025-02-07T14:11:24.130Z",
-				"name": "Drama",
+				"name": "Драма",
 				"slug": "drama",
-				"description": "Drama movies",
+				"description": "Драматический фильм — телевизионный и кинематографический жанр о внутренних переживаниях человека.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			}
 		]
 	},
@@ -114,16 +114,16 @@
 		"country": "UK",
 		"views": 222,
 		"videoUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
-		"userId": "cm6uzegnh0000uan80onfhcu0",
+		"userId": "cm73ff7ei0000uan47p5it7xo",
 		"genres": [
 			{
-				"id": "cm6uzpbp60003uahgay0767uc",
+				"id": "cm73ff7mc0008uan4nsmxqd5s",
 				"createdAt": "2025-02-07T14:11:24.139Z",
-				"name": "Comedy",
+				"name": "Комедия",
 				"slug": "comedy",
-				"description": "Comedy movies",
+				"description": "Кинокоме́дия (комеди́йный фи́льм, устар. коми́ческие[1]) — жанр кинопроизведений, в основе которых эстетические категории сатиры, юмора, буффонады.",
 				"icon": "LuClapperboard",
-				"link": "genres/:id"
+				"link": "genres/:slug"
 			}
 		]
 	}

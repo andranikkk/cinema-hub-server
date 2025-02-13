@@ -1,30 +1,30 @@
 [
 	{
-		"name": "Action",
+		"name": "Экшн",
 		"slug": "action",
-		"description": "Action movies",
+		"description": "Боеви́к или э́кшен-фильм (экшн-фильм) (англ. action movie, дословно — «фильм действия») — жанр кинематографа, в котором основное внимание уделяется перестрелкам, дракам, погоням и т. д.",
 		"icon": "LuClapperboard",
-		"link": "genres/:id"
+		"link": "genres/:slug"
 	},
 	{
-		"name": "Drama",
+		"name": "Драма",
 		"slug": "drama",
-		"description": "Drama movies",
+		"description": "Драматический фильм — телевизионный и кинематографический жанр о внутренних переживаниях человека.",
 		"icon": "LuClapperboard",
-		"link": "genres/:id"
+		"link": "genres/:slug"
 	},
 	{
-		"name": "Crime",
+		"name": "Криминал",
 		"slug": "crime",
-		"description": "Crime movies",
+		"description": "Криминальный фильм — кинематографический жанр, аналогичный литературному жанру криминала.",
 		"icon": "LuClapperboard",
-		"link": "genres/:id"
+		"link": "genres/:slug"
 	},
 	{
-		"name": "Comedy",
+		"name": "Комедия",
 		"slug": "comedy",
-		"description": "Comedy movies",
+		"description": "Кинокоме́дия (комеди́йный фи́льм, устар. коми́ческие[1]) — жанр кинопроизведений, в основе которых эстетические категории сатиры, юмора, буффонады.",
 		"icon": "LuClapperboard",
-		"link": "genres/:id"
+		"link": "genres/:slug"
 	}
 ]

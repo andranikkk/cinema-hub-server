@@ -2,13 +2,13 @@
 	{
 		"name": "Megan Fox",
 		"slug": "megan-fox",
-		"description": "Megan Fox is an American actress and model. She is known for her role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
+		"description": "Ме́ган Дени́з Фокс (англ. Megan Denise Fox; род. 16 мая 1986, Ок-Ридж, Теннесси, США) — американская актриса и фотомодель.",
 		"photoUrl": "/uploads/actors/karen.jpg",
 		"movies": [
 			{
-				"id": "cm6zftpk40001uakoz5b7hbnk",
+				"id": "cm73fk6nt0001uatgbu095d7h",
 				"title": "The Shawshank Redemption",
-				"slug": "pobeg-iz-shoushenka",
+				"slug": "the-shawshank-redemption",
 				"poster": "/uploads/posters/shawshank.jpg",
 				"bigPoster": "/uploads/big-posters/shawshank-big.jpg"
 			}
@@ -17,20 +17,20 @@
 	{
 		"name": "Elijah Wood",
 		"slug": "elijah-wood",
-		"description": "Elijah Wood is an American actor. He is known for his role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
+		"description": "Эла́йджа Джо́рдан Вуд (англ. Elijah Jordan Wood; род. 28 января 1981[1][2], Сидар-Рапидс, Айова) — американский актёр.",
 		"photoUrl": "/uploads/actors/obito.jpg",
 		"movies": [
 			{
-				"id": "cm6uzruqn0003ua7ouo3jbaqr",
+				"id": "cm73fk6o40003uatgmqarfb1n",
 				"title": "The Godfather",
-				"slug": "kresniy-otec",
+				"slug": "the-godfather",
 				"poster": "/uploads/posters/godfather.jpg",
 				"bigPoster": "/uploads/big-posters/godfather-big.jpg"
 			},
 			{
-				"id": "cm6uzruqu0005ua7o1z0cqq6s",
+				"id": "cm73fk6oa0005uatgu41em5pz",
 				"title": "The Dark Knight",
-				"slug": "tyomniy-ricar",
+				"slug": "the-dark-knight",
 				"poster": "/uploads/posters/dark-knight.jpg",
 				"bigPoster": "/uploads/big-posters/dark-knight-big.jpg"
 			}
@@ -39,11 +39,11 @@
 	{
 		"name": "Natalie Portman",
 		"slug": "natalie-portman",
-		"description": "Natalie Portman is an American actress. She is known for her role in the thriller movie 'The Shawshank Redemption', which won an Oscar in 2001.",
+		"description": "Натали́ По́ртман[3][4] (англ. Natalie Portman, урождённая Натали́ Хе́ршлаг[5][6], англ. Natalie HershlagИерусалим, Израиль) — американская актриса театра и кино израильского происхождения, кинорежиссёр, сценаристка и продюсер.",
 		"photoUrl": "/uploads/actors/deidara.jpg",
 		"movies": [
 			{
-				"id": "cm6uzrur00007ua7o9jko3doc",
+				"id": "cm73fk6oi0007uatg5sd8t4a5",
 				"title": "Borat",
 				"slug": "borat",
 				"poster": "/uploads/posters/borat.jpg",
