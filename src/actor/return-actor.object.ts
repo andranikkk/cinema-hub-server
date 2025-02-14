@@ -6,6 +6,7 @@ export const returnActorObject: Prisma.ActorSelect = {
 	name: true,
 	slug: true,
 	photoUrl: true,
+	description: true,
 	movies: {
 		select: {
 			id: true
